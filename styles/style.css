@@ -119,4 +119,24 @@ nav ul li a:hover {
 #gift-ticket .input-sign-in:hover, #gift-ticket .input-sign-infocus-within {
   box-shadow: 1px 1px 8px 1px #181D31;
   outline: none;
+}
+#gift-ticket button {
+  text-transform: uppercase;
+  margin: 0.75rem 0 0 0;
+  outline: none;
+  height: 3rem;
+  text-align: center;
+  width: 8.1rem;
+  background: #181D31;
+  color: #E6DDC4;
+  letter-spacing: 0.1rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0.19rem solid #181D31;
+  border-radius: 1.1rem;
+}
+#gift-ticket button:hover {
+  background: #E6DDC4;
+  color: #181D31;
 }/*# sourceMappingURL=style.css.map */
