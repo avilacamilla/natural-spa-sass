@@ -11,4 +11,26 @@
             font-size: $tamanho-do-texto / 1.7;
         }
     }
+
+    .input-sign-in {
+        margin: 0 auto;
+        width: 35.9rem;
+        border-radius: 1rem;
+        border: 0.3rem solid white;
+        background: white;
+        input {
+            border-radius: 1.6rem;
+            height: 2.2rem;
+            border: none;
+            width: 35.9rem;
+            outline: none;
+            text-align: center;
+            font-size: $tamanho-do-texto / 2;
+        }
+
+        &:hover, &focus-within {
+            box-shadow: 1px 1px 8px 1px $cor-primaria;
+            outline: none;
+        }
+    }
 }

@@ -99,4 +99,24 @@ nav ul li a:hover {
 #gift-ticket .text-ticket h2 {
   margin: 2rem;
   font-size: 1.7647058824rem;
+}
+#gift-ticket .input-sign-in {
+  margin: 0 auto;
+  width: 35.9rem;
+  border-radius: 1rem;
+  border: 0.3rem solid white;
+  background: white;
+}
+#gift-ticket .input-sign-in input {
+  border-radius: 1.6rem;
+  height: 2.2rem;
+  border: none;
+  width: 35.9rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#gift-ticket .input-sign-in:hover, #gift-ticket .input-sign-infocus-within {
+  box-shadow: 1px 1px 8px 1px #181D31;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
