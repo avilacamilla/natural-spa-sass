@@ -139,4 +139,20 @@ nav ul li a:hover {
 #gift-ticket button:hover {
   background: #E6DDC4;
   color: #181D31;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #181D31;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #678983, #E6DDC4, #61A48A);
+}
+footer a {
+  text-decoration: none;
+  color: #61A48A;
+}
+footer i {
+  color: blueviolet;
 }/*# sourceMappingURL=style.css.map */

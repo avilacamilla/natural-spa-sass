@@ -1,0 +1,19 @@
+import abstract_variables.scss
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+footer 
+    text-align: center
+    font-size: $tamanho-do-texto / 3
+    border-top: 2px solid $cor-primaria
+    margin-top: 1rem
+    padding: 1.2rem
+    @include bg-cores($cor-secundaria, $cor-terciaria, $cor-quaternaria)
+    a 
+        text-decoration: none
+        color: $cor-quaternaria
+    i 
+        color: blueviolet
+
+
