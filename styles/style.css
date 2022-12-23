@@ -86,4 +86,17 @@ nav ul li a:hover {
 }
 #services .cards .card .image-container img {
   max-width: 100%;
+}
+
+#gift-ticket {
+  background: #E6DDC4;
+  padding: 4rem;
+  text-align: center;
+}
+#gift-ticket .text-ticket {
+  color: #181D31;
+}
+#gift-ticket .text-ticket h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
 }/*# sourceMappingURL=style.css.map */
