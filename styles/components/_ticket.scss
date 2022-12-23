@@ -33,4 +33,24 @@
             outline: none;
         }
     }
+    button {
+        text-transform: uppercase;
+        margin: 0.75rem 0 0 0;
+        outline: none;
+        height: 3rem;
+        text-align: center;
+        width: 8.1rem;
+        background: $cor-primaria;
+        color: $cor-terciaria;
+        letter-spacing: 0.1rem;
+        font-size: $tamanho-do-texto / 3.2;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0.19rem solid $cor-primaria;
+        border-radius: 1.1rem;
+        &:hover {
+            background: $cor-terciaria;
+            color: $cor-primaria;
+        }
+    }
 }
