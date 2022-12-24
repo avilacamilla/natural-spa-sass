@@ -155,4 +155,22 @@ footer a {
 }
 footer i {
   color: blueviolet;
+}
+
+#curiosity {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+#curiosity h3 {
+  color: #678983;
+  font-size: 1.3636363636rem;
+}
+#curiosity h4 {
+  color: #181D31;
+  font-size: 1rem;
+}
+#curiosity p {
+  margin: 5px 0 0 0;
+  color: #181D31;
 }/*# sourceMappingURL=style.css.map */
